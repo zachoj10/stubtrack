@@ -31,5 +31,5 @@ This is a simple python script designed to monitor the price and avaliability of
 3. Set variable in stubscrape.py to personal preferences
     - DEST_EMAIL_ADDRESS : Email address that will recieve ticket notification
 
-4. Set variable in gdrive.py to person preferences
+4. Set variable in gdrive.py to personal preferences
     - SENDER_EMAIL_ADDRESS : Gmail address that is sending ticket notifications
