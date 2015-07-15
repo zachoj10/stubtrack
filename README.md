@@ -18,12 +18,12 @@ This is a simple python script designed to monitor the price and avaliability of
 - uritemplate==0.6
 
 # Configuration Instructions
-1. Register for Google API here: (https://console.developers.google.com "https://console.developers.google.com")
+1. Register for Google API here: (https://console.developers.google.com)
     - Create a new project and enable the Gmail API
     - Create a set of credentials and download JSON of the credentials.
     - Rename JSON download to 'client_secret.json' and place in local project directory
 
-2. Register for Stubhub API here: (https://developer.stubhub.com/store/ "https://developer.stubhub.com/store/")
+2. Register for Stubhub API here: (https://developer.stubhub.com/store/)
     - Create a new application
     - Create a set of Production Keys
     - (RECOMENDED) Store production keys as well as stubhub login information as environment variables in virtual environment with variable names 'STUB_API_CONNECT_SECRET', 'STUB_API_CONNECT_CONSUMER', 'STUB_USER', 'STUB_PASS' (RECOMENDED)
