@@ -19,7 +19,7 @@ SCOPES = 'https://www.googleapis.com/auth/gmail.compose'
 CLIENT_SECRET_FILE = 'client_secret.json'
 APPLICATION_NAME = 'Gmail API Quickstart'
 
-SENDER_EMAIL_ADDRESS = 'zjosephson@gmail.com'
+SENDER_EMAIL_ADDRESS = '####################'
 
 def get_credentials():
     """Gets valid user credentials from storage.

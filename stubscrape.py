@@ -25,7 +25,7 @@ STUB_API_CONNECT_CONSUMER = os.environ.get('STUB_API_CONNECT_CONSUMER', '')
 STUB_USER = os.environ.get('STUB_USER', '')
 STUB_PASS = os.environ.get('STUB_PASS', '')
 
-DEST_EMAIL_ADDRESS = 'zjosephson@gmail.com'
+DEST_EMAIL_ADDRESS = '####################'
 
 args = parser.parse_args()
 
