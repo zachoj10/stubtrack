@@ -17,7 +17,7 @@ This is a simple python script designed to monitor the price and avaliability of
 - six==1.9.0
 - uritemplate==0.6
 
-# Configuration instructions
+# Configuration Instructions
 1. Register for Google API here: (https://console.developers.google.com "https://console.developers.google.com")
     - Create a new project and enable the Gmail API
     - Create a set of credentials and download JSON of the credentials.
@@ -28,8 +28,8 @@ This is a simple python script designed to monitor the price and avaliability of
     - Create a set of Production Keys
     - (RECOMENDED) Store production keys as well as stubhub login information as environment variables in virtual environment with variable names 'STUB_API_CONNECT_SECRET', 'STUB_API_CONNECT_CONSUMER', 'STUB_USER', 'STUB_PASS' (RECOMENDED)
 
-3. Set variable in stubscrape.py to preferences
+3. Set variable in stubscrape.py to personal preferences
     - DEST_EMAIL_ADDRESS : Email address that will recieve ticket notification
 
-4. Set variable in gdrive.py
+4. Set variable in gdrive.py to person preferences
     - SENDER_EMAIL_ADDRESS : Gmail address that is sending ticket notifications
